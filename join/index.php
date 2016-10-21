@@ -72,6 +72,7 @@
         <!--header-->
         <header>
             <h1>EBISU Bulletin Board</h1>
+            <p>-会員登録-</p>
         </header>
 
         <!--main-->

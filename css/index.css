@@ -1,10 +1,16 @@
 @charset "utf-8";
-html, body {
+html{
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100;
-    background-color: #fffacd;
+    width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fffacd;
 }
 
 
@@ -28,8 +34,12 @@ h1, h2, h3, h4, h5, h6, p, small {
 /*---#header-------------------------------------------------------*/
 
 header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
     padding-top: 1%;
     height: 15%;
+    width: 100%;
     text-align: center;
     background-color: #ff0000;
 }
@@ -48,7 +58,9 @@ header p {
 /*---#main-------------------------------------------------------*/
 
 main {
-    margin: 4% 20%;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 1%;
     text-align: center;
     background-color: white;
@@ -62,7 +74,6 @@ main dd {
 }
 
 main p.error {
-    /*    visibility: hidden;*/
     margin: 0.5% auto;
     font-size: 15px;
     text-align: center;
@@ -100,6 +111,7 @@ main img {
 /*---footer-------------------------------------------------------*/
 
 footer {
+    position: fixed;
     bottom: 0;
     height: 8%;
     width: 100%;
